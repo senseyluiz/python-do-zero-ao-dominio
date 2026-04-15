@@ -1,5 +1,5 @@
  
-# 🐍 Python: Do Zero ao Mestre
+# 🐍 Python: Do Zero ao Domínio
 
 Repositório dedicado ao estudo da linguagem **Python**, com foco em lógica de programação, manipulação de dados e automação. Este espaço documenta a minha transição técnica e a expansão do meu toolkit de desenvolvimento.
 
@@ -41,7 +41,7 @@ O repositório está organizado por módulos progressivos:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/teu-utilizador/estudos-python.git
+    git clone https://github.com/senseyluiz/python-do-zero-ao-dominio.git
     ```
 2.  **Crie um ambiente virtual (opcional, mas recomendado):**
     ```bash
@@ -51,7 +51,7 @@ O repositório está organizado por módulos progressivos:
     ```
 3.  **Execute um script de exemplo:**
     ```bash
-    python 01-fundamentos/exercicio_exemplo.py
+    python 01-fundamentos/exercicio_ex001_bem_vindo.py
     ```
 
 ---
@@ -69,7 +69,8 @@ O repositório está organizado por módulos progressivos:
 
 ## ✍️ Autor
 
-Desenvolvido por **[Luis Henrique]**.
+Desenvolvido por **Luis Henrique**.
+
 Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/luishrocha/).
 
 
