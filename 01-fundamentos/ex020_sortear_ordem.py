@@ -6,5 +6,6 @@ al1 = input("Digite o primeiro aluno: ")
 al2 = input("Digite o segundo aluno: ")
 al3 = input("Digite o terceiro aluno: ")
 al4 = input("Digite o quarto aluno: ")
-sorteado = random.sample((al1, al2, al3, al4), 4)
+lista = [al1, al2, al3, al4]
+sorteado = random.sample(lista, len(lista))
 print(f"A ordem sorteada é: {sorteado}")
