@@ -12,5 +12,5 @@ for i in range(1, 8):
 valores[0].sort()
 valores[1].sort()
 print("=" * 60)
-print(f"Os valores pares digitados foram \33[32m{sorted(valores[0])}\33[m\n"
-      f"Os valores impares digitados foram \33[32m{sorted(valores[1])}\33[m")
+print(f"Os valores pares digitados foram \33[32m{valores[0]}\33[m\n"
+      f"Os valores impares digitados foram \33[32m{valores[1]}\33[m")
