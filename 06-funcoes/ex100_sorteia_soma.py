@@ -22,6 +22,3 @@ print('Sorteando 5 valores da lista: ', end="")
 for num in numeros:
     print(num, end=" ")
 somaPar(numeros)
-
-
-
