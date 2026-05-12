@@ -1,0 +1,17 @@
+def metade(valor):
+    return valor / 2
+
+def dobro(valor):
+    return valor * 2
+
+def aumentar(valor, porcentagem):
+    return valor + (valor * porcentagem / 100)
+
+def diminuir(valor, porcentagem):
+    return valor - (valor * porcentagem / 100)
+
+def moeda(valor, formato=True):
+    if formato:
+        return f"R${valor:.2f}"
+    else:
+        return valor
