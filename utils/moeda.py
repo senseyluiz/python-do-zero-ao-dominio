@@ -12,6 +12,6 @@ def diminuir(valor, porcentagem):
 
 def moeda(valor, formato=True):
     if formato:
-        return f"R${valor:.2f}"
+        return f"R${valor:.2f}".replace('.', ',')
     else:
         return valor
