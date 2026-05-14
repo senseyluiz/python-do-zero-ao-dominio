@@ -7,7 +7,7 @@ def leiaInt(msg=""):
     while True:
         try:
             n = int(input(msg))
-        except:
+        except (ValueError, TypeError):
             print("\33[31mERRO! Digite um número inteiro válido\33[m")
         else:
             break
@@ -17,7 +17,7 @@ def leiaFloat(msg=""):
     while True:
         try:
             n = float(input(msg))
-        except:
+        except (ValueError, TypeError):
             print("\33[31mERRO! Digite um número real válido\33[m")
         else:
             break
