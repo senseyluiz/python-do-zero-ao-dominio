@@ -19,6 +19,7 @@ class ContaBancaria:
             print ("Saldo insuficiente!!!")
         else:
             self.saldo -= valor
+            
 
 
 
