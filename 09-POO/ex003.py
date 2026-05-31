@@ -20,9 +20,6 @@ class ContaBancaria:
         else:
             self.saldo -= valor
             
-
-
-
 luis = ContaBancaria(110, "Luis", 5000)
 print(luis)
 luis.depositar(1500)
