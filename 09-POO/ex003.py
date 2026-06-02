@@ -8,7 +8,7 @@ class ContaBancaria:
         self.saldo = saldo
 
     def __str__(self):
-        return f"A conta de {self.nome} tem R${self.saldo:,.2f} reais"
+        return f"Nome: {self.nome}, Saldo: R${self.saldo:,.2f}"
 
     def depositar(self, valor):
         self.saldo += valor
@@ -19,7 +19,7 @@ class ContaBancaria:
             print ("Saldo insuficiente!!!")
         else:
             self.saldo -= valor
-            
+            print(f"Saque de R${valor:.2f} reais realizado com \33[32mSUCESSO\33[0m")
 luis = ContaBancaria(110, "Luis", 5000)
 print(luis)
 luis.depositar(1500)
