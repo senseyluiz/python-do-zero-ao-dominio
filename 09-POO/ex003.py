@@ -22,5 +22,7 @@ class ContaBancaria:
             print(f"Saque de R${valor:.2f} reais realizado com \33[32mSUCESSO\33[0m")
 luis = ContaBancaria(110, "Luis", 5000)
 lucas = ContaBancaria(111, "Lucas", 3000)
+
 print(luis)
+print(Lucas)
 luis.depositar(1500)
