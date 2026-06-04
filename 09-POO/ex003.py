@@ -24,5 +24,5 @@ luis = ContaBancaria(110, "Luis", 5000)
 lucas = ContaBancaria(111, "Lucas", 3000)
 
 print(luis)
-print(Lucas)
+print(lucas)
 luis.depositar(1500)
