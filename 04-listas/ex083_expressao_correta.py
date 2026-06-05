@@ -14,4 +14,4 @@ for caractere in expressao:
 if len(pilha) == 0:
     print("Sua expressão está correta!")
 else:
-    print("Sua expressão está errada.")
+    print("Sua expressão está incorreta.")
