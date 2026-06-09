@@ -36,4 +36,4 @@ while True:
         break
     else:
         pyHelp(ajuda)
-titulo("Até Logo", 1)
+titulo("Até Logo!", 1)
