@@ -7,7 +7,7 @@ class Gafanhoto:
         self.idade += 1
 
     def mensagem(self):
-        return f"{self.nome} é um gafanhoto e tem {self.idade} anos"
+        return f"{self.nome} é um gafanhoto e tem {self.idade} anos."
 
 g1 = Gafanhoto()
 g1.nome = "Luis Henrique"
