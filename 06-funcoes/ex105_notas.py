@@ -44,5 +44,5 @@ def notas(*notas, sit=False):
 
 
 
-resp = notas(0, 2, 6.5, 7, 8)
+resp = notas(0, 2, 6.5, 7, 8, sit=True)
 print(resp)
