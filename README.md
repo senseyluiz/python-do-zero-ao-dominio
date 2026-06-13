@@ -61,7 +61,7 @@ O repositório está organizado por módulos progressivos:
 - [x] Manipulação de Coleções
 - [ ] Programação Orientada a Objetos (OOP)
 - [ ] Integração com SQL Server via Python
-- [ ] Construção de Pipelines de Dados simples
+- [x] Construção de Pipelines de Dados simples
 - [ ] Deploy de Scripts em Cloud Functions / Azure Functions
 
 ---
